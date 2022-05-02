@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,500,700,900);
+@import url(https://use.fontawesome.com/releases/v5.2.0/css/all.css);
+
+body {
+    background: #F7F9FC;
+    color: #575F7D;
+    font-family: 'Lora', serif;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+  
+div{
+    background: white;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#name_section {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.container {
+    margin: 40px auto;
+}
+
+#profile_pic {
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 50px;
+}
+
+.contact_btn {
+    background-color: #6B72E1;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+  
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+@media (max-width: 960px) {
+/* For a screen < 960px, this CSS will be read */
+.container {
+    width: 700px;
+    }
+}
+  
+@media (max-width: 720px) {
+/* For a screen < 720px, this CSS will be read */
+.container {
+    width: 500px;
+    }
+}
+  
+@media (max-width: 540px) {
+/* For a screen < 540px, this CSS will be read */
+.container {
+    width: 300px;
+    }
+}
+  
